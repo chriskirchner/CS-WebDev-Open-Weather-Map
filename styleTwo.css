@@ -1,0 +1,89 @@
+body {
+    background-image: url("picTwo.jpg");
+    background-size: 1920px;
+    color: white
+}
+
+input:first-child {
+    width: 100%;
+    border: 1px;
+    border-radius: 2px;
+
+}
+
+input#dataSubmit {
+    display: none;
+}
+
+fieldset {
+    border: none;
+    background-color: white;
+    width: auto;
+    opacity: 0.5;
+    padding: 10px;
+    margin: 0 auto;
+    margin: 10px 0;
+}
+
+div#search fieldset {
+    border: none;
+    background-color: rgba(255,255,255,0.5);
+    width: auto;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+div#search{
+    width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 5px;
+}
+
+h2{
+    background-color: rgba(255,255,255,0.1);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+
+div{
+    width: 550px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+div#echoView {
+    width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255,255,255,0.8);
+    border: 1px;
+    border-radius: 5px;
+}
+
+legend {
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    background-color: black;
+}
+
+div#echoView legend {
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    background-color: rgba(0,0,0,0.9);
+}
+
+
+th, td {
+    color: black;
+    border: 2px solid black;
+    text-align: left;
+    padding: 0px 10px;
+}

@@ -1,0 +1,48 @@
+<!--
+Author: Chris Kirchner
+Organization: OSU
+Class: CS290 Web Development
+Assignment: Week 6 - Ajax
+Date: 14Feb16
+Purpose: Weather search engine using Open Weather API
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Open Weather Access</title>
+    <link rel="stylesheet" href="styleOne.css">
+</head>
+<body>
+<!--
+<div id="bg">
+    <img src="sunny-day-wallpaper.jpg">
+</div>
+-->
+<div>
+    <h1>Open Weather Map</h1>
+</div>
+<!--
+http://stackoverflow.com/questions/1505208/how-do-i-get-form-values-to-disappear-when-i-enter-the-field
+-->
+<div id="search">
+    <form>
+        <fieldset>
+            <legend></legend>
+                <label>
+                    <input id="location" type="text"
+                           value="Enter City, Zip, or Cloud"
+                            onfocus="if (this.value=='Enter City, Zip, or ' +
+                             'Cloud')
+                            this.value='';">
+                </label>
+            <input type="submit" id="locationSubmit">
+        </fieldset>
+    </form>
+</div>
+<div id="weatherView">
+</div>
+<script src="scriptOne.js"></script>
+</body>
+</html>

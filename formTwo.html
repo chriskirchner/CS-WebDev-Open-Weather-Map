@@ -1,0 +1,51 @@
+
+<!--
+Author: Chris Kirchner
+Organization: OSU
+Class: CS290 Web Development
+Assignment: Week 6 - Ajax
+Date: 14Feb16
+Purpose: I really have no idea
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HttpBin Echo</title>
+    <link rel="stylesheet" href="styleTwo.css">
+</head>
+<body>
+<!--
+<div id="bg">
+    <img src="sunny-day-wallpaper.jpg">
+</div>
+-->
+<div>
+    <h1>HttpBin Echo</h1>
+</div>
+<!--
+http://stackoverflow.com/questions/1505208/how-do-i-get-form-values-to-disappear-when-i-enter-the-field
+-->
+<div id="search">
+    <form>
+        <fieldset>
+            <legend></legend>
+            <label>
+                <input id="data" type="text"
+                       value="Enter whatever"
+                       onfocus="if (this.value=='Enter whatever')
+                       this.value='';"
+                       onblur="this.value='Enter whatever'">
+            </label>
+            <input type="submit" id="dataSubmit">
+        </fieldset>
+    </form>
+</div>
+<div id="echoView">
+</div>
+<div id="echoViewContainer">
+</div>
+<script src="scriptTwo.js"></script>
+</body>
+</html>
